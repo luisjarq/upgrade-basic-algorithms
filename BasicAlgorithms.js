@@ -44,3 +44,27 @@ let result = y+z;
     //1.5
     //teniendo dos variables y = 10 y z = 5.
 let result2 = y*z;
+// Iteración #4
+    // 1.1
+    const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+    console.log(avengers[0]);
+        // 1.2
+    avengers.splice(0,1,"IRONMAN");
+        // 1.3
+    avengers.splice(0,1,"HULK");
+    alert(`El numero de elementos en el array avengers es: ${avengers.length}`);
+        // 1.4
+    const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+    rickAndMortyCharacters.push("Morty");
+    rickAndMortyCharacters.push("Summer");
+    console.log(rickAndMortyCharacters[rickAndMortyCharacters.length-1]);
+        //1.5
+        //const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+    rickAndMortyCharacters.push("Lapiz Lopez");
+    rickAndMortyCharacters.pop();
+    console.log(`El primer elemento del array es: ${rickAndMortyCharacters[0]}, y el ultimo es:${rickAndMortyCharacters[rickAndMortyCharacters.length-1]}`)
+        //1.6 Elimina el segundo elemento del array y muestra el array por consola.
+        //const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"]
+    rickAndMortyCharacters.push("Lapiz Lopez");
+    rickAndMortyCharacters.splice(1,1);
+    console.log(rickAndMortyCharacters);
