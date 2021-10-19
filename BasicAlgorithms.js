@@ -30,3 +30,17 @@ const car2 = { name: "Chevrolet Corbina", basePrice: 70000, finalPrice: 80000 };
 globalBasePrice = 25000;
 car1.finalPrice = car1.basePrice + globalBasePrice;
 car2.finalPrice = car2.basePrice + globalBasePrice;
+// Iteración #3
+    // 1.1
+alert(10*5);
+    //1.2
+alert(10/5);
+    //1.3
+alert(15%9);
+    //1.4
+let y = 10;
+let z = 5;
+let result = y+z;
+    //1.5
+    //teniendo dos variables y = 10 y z = 5.
+let result2 = y*z;
